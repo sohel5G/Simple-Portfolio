@@ -97,6 +97,42 @@ header nav ul li:last-child a{
     border-radius: 5px;
 }
 
+/* Working section style start  */
+.work-with-me{
+    height: 90vh;
+    align-items: center;
+    padding: 80px 30px;
+}
+.work-with-me h1{
+    font-size: 40px;
+    font-weight: 500;
+    width: 85%;
+    margin: auto;
+}
+.working{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+}
+.working .left{
+    width: 30%;
+    text-align: center;
+}
+.working .left img{
+    border: 5px solid #929191;
+    border-radius: 50%;
+}
+.working .right{
+    width: 70%;
+}
+.working .right p{
+   font-size: 25px;
+   line-height: 40px; 
+   letter-spacing: 1px;
+}
+
+
+
 
 
 
