@@ -215,13 +215,40 @@ header nav ul li:last-child a {
     border-radius: 6px;
 }
 
-.contact .iner-section .form label input[type="submit"]{
-    min-height: 50px;
-    font-size: 20px;
-    background: #000000;
-    color: #ffffff;
-    width: 146px;
+.contact .iner-section .form label input[type="submit"] {
+    font-size: 18px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 170px;
     border-radius: 7px;
     cursor: pointer;
+    line-height: 0px;
+    padding: 25px 42px;
 }
 
+/* Footer section design done  */
+.footer-wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 150px 30px 30px;
+
+}
+
+.footer-wrap .footer-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrap .footer-top nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-wrap .footer-top nav ul li a {
+    padding: 10px;
+}
+
+.footer-wrap .copyright {
+    text-align: center;
+    padding: 50px 30px 10px;
+}
